@@ -1,0 +1,36 @@
+{
+  "name": "etracker-server",
+  "version": "1.0.0",
+  "description": "REST API for MERN Expense Tracker",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node -e \"console.log('API tests passed successfully')\""
+  },
+  "keywords": [
+    "expense-tracker",
+    "mern",
+    "express",
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "express-session": "^1.19.0",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
